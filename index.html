@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ed/69/4d/ed694d6f-c9ce-e50c-d67c-dfd9fcdb3e6c/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1 class="text">Tic Tac Toe</h1>
+    <div class="turn-display">
+        <div id="x" class="turnx">X</div>
+        <div id="o" class="turno ">O</div>
+    </div>
+    <div class="box">
+            <div class="btn" data-index="0"></div>
+            <div class="btn" data-index="1"></div>
+            <div class="btn" data-index="2"></div>
+            <div class="btn" data-index="3"></div>
+            <div class="btn" data-index="4"></div>
+            <div class="btn" data-index="5"></div>
+            <div class="btn" data-index="6"></div>
+            <div class="btn" data-index="7"></div>
+            <div class="btn" data-index="8"></div>
+    </div>
+    <button id="newgame" type="submit">NEW GAME</button>
+    <div id="gameover" class="hide">
+        <div class="overbox">
+            <p id="winner">WINNER IS X</p>
+            <button id="restart">PLAY AGAIN</button>
+        </div>
+    </div>
+</body>
+</html>

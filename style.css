@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Chiller";
+}
+body{
+    background:url("https://t3.ftcdn.net/jpg/01/65/01/74/360_F_165017400_ML3n45GBK7MYWhzm9bdME7NRF6gaTc9g.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    font-family: "Viner Hand ITC";
+    color: darkorange;
+    height:100px;
+}
+.turn-display{
+    color:orangered;
+    display: grid;
+    grid-template-columns: 120px 120px;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.turnx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI Emoji";
+    height: 55px;
+}
+.turno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI Emoji";
+    height: 55px;
+}
+.turnchange{
+    border-radius: 50px;
+    font-family: "Segoe UI Emoji";
+    background-color: #006bf8;
+    color: orangered;
+}
+.box{
+    width:400px;
+    height:400px;
+    background-color: #006bf8;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:3px;
+    padding: 3px;
+    margin-bottom: 15px;
+}
+.btn{
+    color: #FFA732;
+    font-size: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    background-color: #1c1c1c;
+    font-family: "Segoe UI Emoji";
+}
+#newgame{
+    border: 2px solid orangered;
+    width:130px;
+    height:40px;
+    color: orangered;
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 25px;
+}
+#newgame:active{
+    width:129px;
+    height:39px;
+    font-weight: bolder;
+}
+.overbox{
+    width: 700px;
+    height:480px;
+    position: absolute;
+    top:100px;
+    left:320px;
+    background-color: #1c1c1cea;
+    border: 3px solid #006bf8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#winner{
+    font-size: 150px;
+    color: darkorange;
+    margin-top: 70px;
+}
+#restart{
+    margin-top: 40px;
+    border: 2px solid orangered;
+    width:180px;
+    height:60px;
+    color: orangered;
+    background-color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 25px;
+}
+#restart:active{
+    width: 179px;
+    height: 59px;
+}
+.hide{
+    display:none;
+}
